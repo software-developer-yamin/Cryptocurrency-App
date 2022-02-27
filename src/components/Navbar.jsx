@@ -14,10 +14,10 @@ function Navbar() {
       <div className="logo-container">
         <Avatar src={Icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">Cryptocurrency</Link>
+          <Link to="/">Cryptoverse</Link>
         </Typography.Title>
       </div>
-      <Menu>
+      <Menu theme="dark">
         <Menu.Item icon={<HomeOutlined />}>
           <Link to="/">Home</Link>
         </Menu.Item>
